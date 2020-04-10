@@ -53,10 +53,8 @@ class CreateTrackingLocation extends React.Component {
     if (this.state.name == '') {
       alert('Please enter a name for the tracking location');
     } else {
-      UserServices.createTrackingLocation(this.state.name).then((response) => {
-        console.log(response)
-      });
-      this.closeWindow()
+      UserServices.createTrackingLocation(this.state.name);
+      this.closeWindow();
     }
   }
 
