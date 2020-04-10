@@ -79,8 +79,7 @@ const dummyData = {
     {
       email: "cking32@gatech.edu",
       role: "Faculty/Staff",
-      name: "Cole King",
-      userID: "coleking"
+      name: "Cole King"
     },
 
     {
@@ -89,8 +88,7 @@ const dummyData = {
       role: "Student",
       cohort_number: 3,
       mentor: 'fyates33@gatech.edu',
-      status: "current",
-      userID: "masontaylor"
+      status: "current"
     },
 
     {
@@ -99,8 +97,7 @@ const dummyData = {
       role: "Student",
       cohort_number: 2,
       mentor: "bdylan9@gatech.edu",
-      status: "current",
-      userID: "andysullivan"
+      status: "current"
     },
 
     {
@@ -109,37 +106,32 @@ const dummyData = {
       role: "Student",
       cohort_number: 2,
       mentor: null,
-      status: "current",
-      userID: "perrysullivan"
+      status: "current"
     },
 
     {
       email: "bdylan9@gatech.edu",
       name: "Bob Dylan",
       role: "Mentor",
-      students: ["asullivan@gatech.edu"],
-      userID: "bobdylan"
+      students: ["asullivan@gatech.edu"]
     },
 
     {
       email: "crands@gatech.edu",
       role: "Faculty/Staff",
-      name: "Carly Rands",
-      userID: "carlyrands"
+      name: "Carly Rands"
     },
 
     {
       email: "rSmith@gatech.edu",
       name: "Riley Smith",
       role: "Admin",
-      userID:"rileysmith"
     },
 
     {
       email: "hNeald@gatech.edu",
       name: "Hathan Neald",
       role: "Admin",
-      userID: "hathanneald"
     },
 
     {
@@ -148,16 +140,14 @@ const dummyData = {
       role: "Student",
       cohort_number: 1,
       mentor: null,
-      status: "current",
-      userID: "courtneytreaty"
+      status: "current"
     },
 
     {
       email: "fyates33@gatech.edu",
       name: "Fred Yates",
       role: "Mentor",
-      students: ["mtaylor@gatech.edu"],
-      userID: "fredyates"
+      students: ["mtaylor@gatech.edu"]
     }
   ],
 
@@ -189,129 +179,7 @@ const dummyData = {
     },
     
 
-  ],
-
-  evaluations: [
-    {
-      userID: "masontaylor",
-      competencyID: 9,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "coleking",
-      evaluationScore: 4,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "masontaylor",
-      competencyID: 9,
-      year: 2019,
-      month: 3,
-      day: 24,
-      evaluatorID: "coleking",
-      evaluationScore: 3,
-      evidence: "Interview",
-      approved: "False"
-
-    },
-
-    {
-      userID: "masontaylor",
-      competencyID: 4,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "coleking",
-      evaluationScore: 4,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "andysullivan",
-      competencyID: 1,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "coleking",
-      evaluationScore: 3,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "andysullivan",
-      competencyID: 2,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "coleking",
-      evaluationScore: 4,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "perrysullivan",
-      competencyID: 1,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "carlyrands",
-      evaluationScore: 4,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "perrysullivan",
-      competencyID: 2,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "carlyrands",
-      evaluationScore: 4,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "courtneytreaty",
-      competencyID: 1,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "carlyrands",
-      evaluationScore: 4,
-      evidence: "Assessment",
-      approved: "False"
-
-    },
-
-    {
-      userID: "courtneytreaty",
-      competencyID: 2,
-      year: 2020,
-      month: 3,
-      day: 24,
-      evaluatorID: "carlyrands",
-      evaluationScore: 3,
-      evidence: "Assessment",
-      approved: "False"
-
-    }
-
   ]
-
-
 }
 
 
